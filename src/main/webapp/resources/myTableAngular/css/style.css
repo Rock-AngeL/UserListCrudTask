@@ -1,0 +1,44 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#table-body>.pageBlock:not(.active) {
+    display:none;
+}
+
+
+.btn-default {
+    text-shadow:none;
+    background-image:none;
+}
+
+h2 {
+    margin-top: 10px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: gray;
+}
+
+#createForm {
+    margin-top: 10px;
+}
+
+span {
+    font-size: small;
+}
+
+.well {
+    background-image: none;
+    background-color: white;
+}
+
+.table-row:hover {
+    background-color: #F5F5F5;
+}
+
+#main-panel {
+    margin-bottom: 300px;
+}

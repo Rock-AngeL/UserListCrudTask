@@ -53,29 +53,6 @@ public class UsersController {
                 });
     }
 
-    /*
-    @RequestMapping("userList-DataTables")
-    public ModelAndView userListDataTables() {
-        List userList = userService.read();
-        ModelAndView modelAndView = new ModelAndView("userList-DataTables");
-        modelAndView.addObject("listOfUsers", userList);
-        return modelAndView;
-    }
-
-    @RequestMapping("userList-myLocalTable")
-    public ModelAndView userListmyLocalTable() {
-        List userList = userService.read();
-        ModelAndView modelAndView = new ModelAndView("userList-myLocalTable");
-        modelAndView.addObject("listOfUsers", userList);
-        return modelAndView;
-    }
-
-    @RequestMapping("userList-myTableAngular")
-    public String userListmyTableAngular() {
-        return "userList-myTableAngular";
-    }
-    */
-
     @RequestMapping("users/page")
     @ResponseBody
     public UserPage users_page(@RequestParam(required = false) String pState) {

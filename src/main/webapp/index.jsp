@@ -84,7 +84,7 @@
                             <!-- чтобы работал ng-if нужна версия 1.1.5+ -->
                             <div class="col-xs-2 user-date"><img ng-if="user.isAdmin" src="resources/images/admin.png"/></div>
                             <div class="col-xs-1"><a id='update'
-                                                     href='updateForm?id={{user.id}}&source=userList-myTableAngular'><img
+                                                     href='updateForm?id={{user.id}}&source=/'><img
                                     src="resources/images/edit.png"/></a></div>
                             <div class="col-xs-1"><a id='delete' href='#' ng-click="deleteUser({{user.id}})"><img
                                     src="resources/images/trash.png"/></a></div>
